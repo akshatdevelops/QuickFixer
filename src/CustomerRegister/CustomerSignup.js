@@ -112,7 +112,7 @@ const CustomerSignup = () => {
       };
     
   return (
-    <div style={{width:"100vw",height:"100vh",margin:"0",padding:"0",boxSizing:"border-box"}}>
+    <div style={{width:"100vw",margin:"0",padding:"0",boxSizing:"border-box"}}>
     <div className="signup-container">
       <form className="signup-form" onSubmit={handleSubmit}>
         <h2 className="form-title">User Signup</h2>
