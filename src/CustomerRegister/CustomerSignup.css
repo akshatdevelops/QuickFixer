@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    background-color: #110f0f;
+    background-color: hwb(0 0% 100% / 0.515);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box; 
