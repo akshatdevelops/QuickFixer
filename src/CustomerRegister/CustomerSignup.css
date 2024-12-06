@@ -1,25 +1,34 @@
+.body{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .signup-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    padding: 20px; /* Add padding to avoid content touching the edges */
-    background-color: #f8f9fa;
-    background-image: url("../Images/QuickFixerBg.webp");
+    width: 100%;
+    height: 100%;
+    
+   
+   /*  padding: 20px; */ /* Add padding to avoid content touching the edges */
+   background-image: url("../Images/QuickFixerBg.webp");
     background-size: cover;
-    background-position: center;
+   
     background-repeat: no-repeat;
     box-sizing: border-box;
+    
   }
   
   .signup-form {
-    width: 100%;
+    height: fit-content;
     max-width: 400px;
     padding: 20px;
     background-color: hwb(0 0% 100% / 0.515);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box; 
+    margin:  auto;
   }
   
   .form-title {
